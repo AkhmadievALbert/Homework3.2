@@ -14,6 +14,8 @@
 		4A080C5627262E0500934FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A080C5527262E0500934FAE /* Assets.xcassets */; };
 		4A080C5927262E0500934FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A080C5727262E0500934FAE /* LaunchScreen.storyboard */; };
 		4A080C6227262E3600934FAE /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A080C6127262E3600934FAE /* Factory.swift */; };
+		4A080C6427262EBF00934FAE /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A080C6327262EBF00934FAE /* Stack.swift */; };
+		4A080C6627262EE200934FAE /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A080C6527262EE200934FAE /* StackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4A080C5827262E0500934FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A080C5A27262E0500934FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A080C6127262E3600934FAE /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		4A080C6327262EBF00934FAE /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4A080C6527262EE200934FAE /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				4A080C5527262E0500934FAE /* Assets.xcassets */,
 				4A080C5727262E0500934FAE /* LaunchScreen.storyboard */,
 				4A080C5A27262E0500934FAE /* Info.plist */,
+				4A080C6527262EE200934FAE /* StackViewController.swift */,
 			);
 			path = Generic;
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				4A080C6127262E3600934FAE /* Factory.swift */,
+				4A080C6327262EBF00934FAE /* Stack.swift */,
 			);
 			path = Task;
 			sourceTree = "<group>";
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A080C6227262E3600934FAE /* Factory.swift in Sources */,
+				4A080C6427262EBF00934FAE /* Stack.swift in Sources */,
 				4A080C5127262E0200934FAE /* ViewController.swift in Sources */,
+				4A080C6627262EE200934FAE /* StackViewController.swift in Sources */,
 				4A080C4D27262E0200934FAE /* AppDelegate.swift in Sources */,
 				4A080C4F27262E0200934FAE /* SceneDelegate.swift in Sources */,
 			);
